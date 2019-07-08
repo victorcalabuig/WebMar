@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
+
+body {
+	/*original light blue: #a4f0f7*/
+	/*Decod:
+		- green buttons: #50d07d
+		- red buttons: #d02552
+		- greyish-green background: #b2cecf*/
+
+	/*Cheese Survival Kit
+		- black background: #2B2B2B (looks good with grey font letter)
+		- red for buttons and outlines: #DE1B1B
+		- Whiteish background: #F6F6F6
+		- yellowish button : #E9E581*/
+
+
+	background-color: #F6F6F6;	
+	font-family: "Source Code Pro";
+	color: #2B2B2B;
+}
+
+#us {
+	height: 400px;
+	border-radius: 20%;
+	
+	border-image-width: 100px;
+	border-color: white;
+}
+
+#heart {
+	height: 100px;
+}
+
+h1 {
+	font-weight: 200;
+	font-size: 70px;
+	text-transform: uppercase;
+	border-top: 5px solid #DE1B1B;
+	margin: 20px;
+	
+	
+}
+
+button {
+	margin: 100px;
+	padding: 20px 25px;
+	color: #2B2B2B;
+	background-color: #E9E581;
+	border: 1px solid #2B2B2B;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	
+	letter-spacing: 4px;
+	text-decoration: none;
+	outline: none;
+}
+
+button:hover {
+	color: #E9E581;
+	background-color: #2B2B2B;
+	transition: 0.3s;
+	text-decoration: underline;
+}
+
+#header {
+	display: flex;
+	height: 30vh;
+	justify-content: flex-end;
+	flex-direction: column;
+	align-items: center;
+}
+
+#visor {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#message {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
